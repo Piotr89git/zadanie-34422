@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form
+    action="https://formspree.io/f/xoqrqgng"
+    method="POST">
+        <label for="imie">Imię</label><br>
+        <input type="text" id="imie" name="imie" placeholder="Jan"><br>
+        <label for="nazwisko">Nazwisko</label><br>
+        <input type="text" id="nazwisko" name="nazwisko" placeholder="Nowak"><br>
+        <label for="email">Twój e-mail</label><br>
+        <input type="text" id="email" name="email" placeholder="jan@nowak.pl"><br>
+        <label for="telefon">Twój nr telefonu</label><br>
+        <input type="text" id="telefon" name="telefon" placeholder="000 000 000"><br>
+        <p>Wybór miasta:</p>
+        <input type="radio" id="krk" name="miasto" value="Kraków">
+        <label for="krk">Kraków</label><br>
+        <input type="radio" id="wwa" name="miasto" value="Warszawa">
+        <label for="wwa">Warszawa</label><br>
+        <input type="radio" id="gda" name="miasto" value="Gdańsk">
+        <label for="gda">Gdańsk</label><br><br>
+        <p>Płeć</p>
+        <input type="radio" id="woman" name="płeć" value="Kobieta">
+        <label for="krk">Kobieta</label><br>
+        <input type="radio" id="man" name="płeć" value="Męzczyzna">
+        <label for="man">Męzczyzna</label><br><br>
+        <input type="checkbox" id="zgoda" name="zgoda" value="Zgoda">
+        <label for="zgoda">Zgoda na dane osobowe</label><br><br>
+        <textarea name="wiadomość" id="message" cols="30" rows="10" placeholder="Wiadomość..."></textarea><br>
+        <button type="submit">Wyślij</button>
+</form>
+</body>
+</html>
