@@ -15,19 +15,18 @@
         <label for="nazwisko">Nazwisko</label><br>
         <input type="text" id="nazwisko" name="nazwisko" placeholder="Nowak"><br>
         <label for="email">Twój e-mail</label><br>
-        <input type="text" id="email" name="email" placeholder="jan@nowak.pl"><br>
+        <input type="email" id="email" name="email" placeholder="jan@nowak.pl"><br>
         <label for="telefon">Twój nr telefonu</label><br>
-        <input type="text" id="telefon" name="telefon" placeholder="000 000 000"><br>
+        <input type="tel" id="telefon" name="telefon" placeholder="000 000 000"><br>
         <p>Wybór miasta:</p>
-        <input type="radio" id="krk" name="miasto" value="Kraków">
-        <label for="krk">Kraków</label><br>
-        <input type="radio" id="wwa" name="miasto" value="Warszawa">
-        <label for="wwa">Warszawa</label><br>
-        <input type="radio" id="gda" name="miasto" value="Gdańsk">
-        <label for="gda">Gdańsk</label><br><br>
+        <select name="miasto">
+            <option value="krk">Kraków</option> 
+            <option value="wwa" selected>Warszawa</option>
+            <option value="gda">Gdańsk</option>
+        </select>
         <p>Płeć</p>
         <input type="radio" id="woman" name="płeć" value="Kobieta">
-        <label for="krk">Kobieta</label><br>
+        <label for="woman">Kobieta</label><br>
         <input type="radio" id="man" name="płeć" value="Męzczyzna">
         <label for="man">Męzczyzna</label><br><br>
         <input type="checkbox" id="zgoda" name="zgoda" value="Zgoda">
